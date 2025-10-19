@@ -1,0 +1,26 @@
+# Data paths
+data_paths:
+  raw_data: "C:/mca_insights_engine/dataset/raw"
+  processed_data: "C:/mca_insights_engine/dataset/processed"
+  outputs: "C:/mca_insights_engine/dataset/outputs"
+
+# Merge settings
+merge_settings:
+  remove_duplicates: true
+  validate_quality: true
+  save_intermediate: false
+
+# Analysis settings
+analysis:
+  top_n_companies: 10
+  capital_threshold: 1000000
+
+# Visualization settings
+visualization:
+  theme: "seaborn"
+  color_palette: "viridis"
+
+# Logging settings
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(levelname)s - %(message)s"

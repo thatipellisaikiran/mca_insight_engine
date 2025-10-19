@@ -1,0 +1,21 @@
+# Data Integration Configuration
+data_sources:
+  excel:
+    input_directory: "data/input"
+    output_directory: "data/output"
+    processed_directory: "data/processed"
+    
+processing:
+  chunk_size: 1000
+  max_workers: 4
+  timeout: 300
+  
+file_handling:
+  allowed_extensions: [".xlsx", ".xls", ".csv"]
+  max_file_size_mb: 50
+  auto_create_dirs: true
+  
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+  file: "logs/data_integration.log"

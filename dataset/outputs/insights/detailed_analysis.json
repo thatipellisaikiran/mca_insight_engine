@@ -1,0 +1,107 @@
+{
+  "basic_analysis": {
+    "analysis_timestamp": "2025-10-18T23:48:45.588822",
+    "basic_stats": {
+      "total_companies": 50,
+      "total_states": 5,
+      "total_columns": 16
+    },
+    "state_analysis": {
+      "company_count_by_state": {
+        "Maharashtra": 10,
+        "Gujarat": 10,
+        "Delhi": 10,
+        "Tamil_Nadu": 10,
+        "Karnataka": 10
+      },
+      "top_states": {
+        "Maharashtra": 10,
+        "Gujarat": 10,
+        "Delhi": 10,
+        "Tamil_Nadu": 10,
+        "Karnataka": 10
+      }
+    },
+    "capital_analysis": {
+      "authorized_capital": {
+        "total_authorized_capital": 221060000.0,
+        "average_authorized_capital": 4421200.0,
+        "median_authorized_capital": 500000.0,
+        "max_authorized_capital": 70000000.0,
+        "min_authorized_capital": 10000.0,
+        "records_with_capital_data": 50
+      },
+      "paidup_capital": {
+        "total_paidup_capital": 0,
+        "average_paidup_capital": 0,
+        "median_paidup_capital": 0,
+        "max_paidup_capital": 0,
+        "min_paidup_capital": 0,
+        "records_with_paidup_data": 0
+      }
+    },
+    "temporal_analysis": {},
+    "company_category_analysis": {
+      "Company limited by shares": 50
+    },
+    "data_quality": {
+      "total_records": 50,
+      "records_with_missing_data": "50",
+      "completeness_percentage": 56.25
+    }
+  },
+  "capital_analysis": {
+    "state_wise_capital": {
+      "Delhi": {
+        "sum": 112100000,
+        "mean": 11210000.0,
+        "median": 750000.0,
+        "count": 10
+      },
+      "Gujarat": {
+        "sum": 3300000,
+        "mean": 330000.0,
+        "median": 100000.0,
+        "count": 10
+      },
+      "Karnataka": {
+        "sum": 4460000,
+        "mean": 446000.0,
+        "median": 100000.0,
+        "count": 10
+      },
+      "Maharashtra": {
+        "sum": 74400000,
+        "mean": 7440000.0,
+        "median": 500000.0,
+        "count": 10
+      },
+      "Tamil_Nadu": {
+        "sum": 26800000,
+        "mean": 2680000.0,
+        "median": 1000000.0,
+        "count": 10
+      }
+    },
+    "capital_size_distribution": {
+      "Medium (1L-10L)": 27,
+      "Large (10L-1Cr)": 16,
+      "Very Large (>1Cr)": 5,
+      "Small (<1L)": 2
+    }
+  },
+  "temporal_analysis": {
+    "yearly_registrations": {},
+    "recent_trends": {},
+    "trend_stats": {
+      "earliest_year": null,
+      "latest_year": null,
+      "total_years_covered": 0
+    }
+  },
+  "analysis_metadata": {
+    "timestamp": "2025-10-18T23:48:45.593715",
+    "total_records_analyzed": 50,
+    "analysis_version": "1.0"
+  }
+}

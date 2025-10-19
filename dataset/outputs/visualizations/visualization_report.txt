@@ -1,0 +1,15 @@
+
+MCA INSIGHTS ENGINE - VISUALIZATION REPORT
+Generated: 2025-10-19 10:45:31
+
+VISUALIZATIONS CREATED:
+- state_distribution.png - Company distribution across states
+- sample_state_distribution.png - Sample data visualization
+- sample_pie_chart.png - Sample pie chart
+- sample_summary.png - Sample summary metrics
+
+Output Location: C:/mca_insights_engine/dataset/outputs\visualizations
+
+NOTES:
+- Run the analysis pipeline first for actual data visualizations
+- Sample visualizations are created when analysis data is not available

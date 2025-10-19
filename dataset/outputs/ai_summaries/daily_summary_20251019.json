@@ -1,0 +1,27 @@
+{
+  "report_date": "2025-10-19",
+  "generated_at": "2025-10-19T10:57:04.611493",
+  "summary": {
+    "total_companies": 50,
+    "new_incorporations_today": 5,
+    "states_covered": 5,
+    "average_authorized_capital": 4421200.0,
+    "top_states": {
+      "Maharashtra": 10,
+      "Gujarat": 10,
+      "Delhi": 10,
+      "Tamil_Nadu": 10,
+      "Karnataka": 10
+    },
+    "recent_trends": {
+      "last_30_days_companies": 0,
+      "growth_rate": "2.5%"
+    }
+  },
+  "key_changes": {
+    "major_capital_increases": 15,
+    "status_changes": 8,
+    "address_updates": 23,
+    "new_incorporations": 5
+  }
+}

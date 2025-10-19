@@ -1,0 +1,32 @@
+{
+  "duplicates_removed": 0,
+  "merge_timestamp": "2025-10-18T23:48:45.559153",
+  "quality_report": {
+    "validation_timestamp": "2025-10-18T23:48:45.552998",
+    "total_records": 50,
+    "total_columns": 16,
+    "data_completeness": {
+      "CIN": {
+        "missing_count": "0",
+        "completeness_percentage": 100.0
+      },
+      "Company Name": {
+        "missing_count": "0",
+        "completeness_percentage": 100.0
+      },
+      "State": {
+        "missing_count": "0",
+        "completeness_percentage": 100.0
+      }
+    },
+    "data_quality_issues": {},
+    "state_distribution": {
+      "Maharashtra": 10,
+      "Gujarat": 10,
+      "Delhi": 10,
+      "Tamil_Nadu": 10,
+      "Karnataka": 10
+    },
+    "overall_completeness_score": 56.25
+  }
+}

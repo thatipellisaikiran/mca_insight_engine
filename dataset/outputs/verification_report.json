@@ -1,0 +1,66 @@
+{
+  "verification_timestamp": "2025-10-18T22:41:14.619637",
+  "checks": {
+    "Master Dataset": {
+      "status": "PASS",
+      "message": "Exists (0.01 MB)",
+      "timestamp": "2025-10-18T22:41:14.621568"
+    },
+    "Data Quality": {
+      "status": "PASS",
+      "message": "50 records, 56.25% completeness",
+      "timestamp": "2025-10-18T22:41:14.628350"
+    },
+    "Quality Report": {
+      "status": "PASS",
+      "message": "Exists (0.00 MB)",
+      "timestamp": "2025-10-18T22:41:14.628652"
+    },
+    "Quality Report Validity": {
+      "status": "PASS",
+      "message": "Valid JSON with 7 keys",
+      "timestamp": "2025-10-18T22:41:14.651432"
+    },
+    "Change Log": {
+      "status": "PASS",
+      "message": "Exists (0.00 MB)",
+      "timestamp": "2025-10-18T22:41:14.651888"
+    },
+    "Change Log Validity": {
+      "status": "PASS",
+      "message": "Valid JSON with 3 keys",
+      "timestamp": "2025-10-18T22:41:14.670145"
+    },
+    "Detailed Analysis": {
+      "status": "PASS",
+      "message": "Exists (0.00 MB)",
+      "timestamp": "2025-10-18T22:41:14.671514"
+    },
+    "Detailed Analysis Validity": {
+      "status": "PASS",
+      "message": "Valid JSON with 4 keys",
+      "timestamp": "2025-10-18T22:41:14.695683"
+    },
+    "Business Insights": {
+      "status": "PASS",
+      "message": "Exists (0.00 MB)",
+      "timestamp": "2025-10-18T22:41:14.696474"
+    },
+    "Business Insights Validity": {
+      "status": "PASS",
+      "message": "Valid JSON with 4 keys",
+      "timestamp": "2025-10-18T22:41:14.697056"
+    },
+    "Summary Report": {
+      "status": "PASS",
+      "message": "Exists (0.00 MB)",
+      "timestamp": "2025-10-18T22:41:14.697483"
+    },
+    "Summary Report Validity": {
+      "status": "PASS",
+      "message": "Valid JSON with 6 keys",
+      "timestamp": "2025-10-18T22:41:14.722433"
+    }
+  },
+  "overall_status": "PARTIAL_SUCCESS"
+}

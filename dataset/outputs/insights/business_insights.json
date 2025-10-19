@@ -1,0 +1,17 @@
+{
+  "key_findings": [
+    "Total companies analyzed: 50",
+    "Top state by company count: Maharashtra with 10 companies",
+    "Average authorized capital: \u20b94,421,200.00",
+    "Data completeness: 56.25%"
+  ],
+  "recommendations": [
+    "Consider focusing on states with high company density for business expansion",
+    "Analyze capital-intensive companies for potential investment opportunities",
+    "Review data quality and consider data enrichment for missing values"
+  ],
+  "anomalies_detected": [
+    "50 records have missing data that may need attention"
+  ],
+  "generation_timestamp": "2025-10-18T23:48:45.593724"
+}
