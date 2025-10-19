@@ -1,131 +1,91 @@
-MCA Insights Engine  
+🧩 MCA Insights Engine
+Overview
 
-Overview  
-MCA Insights Engine is a comprehensive Python application that processes, analyzes, and provides insights into Indian company data from the Ministry of Corporate Affairs (MCA). The system consolidates state-wise company data, detects changes, enriches information, and provides interactive dashboards with AI-powered features.  
+MCA Insights Engine is a comprehensive Python application that processes, analyzes, and provides insights into Indian company data from the Ministry of Corporate Affairs (MCA).
+It consolidates state-wise company data, detects changes, enriches information, and provides interactive dashboards with AI-powered insights.
 
-Features  
-• Data Integration: Merge and clean state-wise MCA data  
-• Change Detection: Track daily company changes and updates  
-• Data Enrichment: Enhance company data with external sources  
-• Interactive Dashboard: Web-based data exploration and visualization  
-• REST API: Programmatic access to company data  
-• AI Chatbot: Natural language query interface  
-• AI Summary Generator: Automated report generation  
+🚀 Features
+🗂️ Data Integration
 
-Installation  
+Merge and clean company datasets
 
-Prerequisites  
-• Python 3.8 or higher  
-• pip package manager  
+Extract state-wise and status-wise company information
 
-Steps  
-1. Clone the repository  
-   git clone <repository-url>  
-   cd mca_insights_engine
+Automate data updates from MCA sources
 
-2. Install required dependencies  
-   pip install -r requirements.txt
+🧠 AI Features
 
-3. Prepare your data files  
-   Place companies.csv, directors.csv, and charges.csv in the data/raw/ directory  
+NLP-based company insights
 
-Quick Start  
+Chatbot-style question answering
 
-Starting the Application  
-Run the main launcher:  
-   python run_dashboard.py
+Intelligent summary generation and key metric extraction
 
-This will present you with the following options:  
+⚙️ API Endpoints
+GET /api/companies?state=--     → Filter by state
+GET /api/companies?status=--    → Filter by company status
 
-🎯 MCA Insights Engine - Interactive Features  
-==================================================  
-1. 📊 Dashboard (Streamlit) - http://localhost:8501  
-2. 🌐 REST API (Flask) - http://localhost:5000  
-3. 🤖 Chatbot (Streamlit) - http://localhost:8502  
-4. 📈 AI Summary Generator - http://localhost:8503  
-5. 🚀 Start ALL Services  
+🧪 Example API Usage
+curl "http://localhost:5000/api/company/U72900MH2000PTC124845"
+curl "http://localhost:5000/api/search?q=Tech Solutions"
+curl "http://localhost:5000/api/states"
 
-Select option (1-5):  
+💬 Chatbot Examples
 
-Access Points  
-• Main Dashboard: http://localhost:8501  
-• REST API: http://localhost:5000  
-• AI Chatbot: http://localhost:8502  
-• AI Summary Generator: http://localhost:8503  
+"Show new incorporations in Maharashtra"
 
-Project Structure  
-mca_insights_engine/  
-├── run_dashboard.py              → Main application launcher  
-├── ai/                           → AI components (chatbot, summarization)  
-├── dashboard/                    → Web dashboard and API  
-├── data/                         → Data storage (raw, processed, outputs)  
-├── utils/                        → Configuration and utilities  
-├── src/                          → Core business logic  
-└── logs/                         → Application logs  
+"List manufacturing companies with high capital"
 
-API Documentation  
+"How many companies were struck off last month?"
 
-REST Endpoints  
-GET /api/companies             → Retrieve all companies  
-GET /api/company/<cin>         → Get company by CIN  
-GET /api/search?q=<name>       → Search companies by name  
-GET /api/companies?state=<s>   → Filter by state  
-GET /api/companies?status=<s>  → Filter by company status  
+"Show company trends by state"
 
-Example API Usage  
-curl http://localhost:5000/api/company/U72900MH2000PTC124845  
-curl "http://localhost:5000/api/search?q=Tech Solutions"  
-curl http://localhost:5000/api/states  
+📊 Summary Generation
 
-AI Features  
+Daily change reports
 
-Chatbot Examples  
-• "Show new incorporations in Maharashtra"  
-• "List manufacturing companies with high capital"  
-• "How many companies were struck off last month?"  
-• "Show company trends by state"  
+Key metrics extraction
 
-Summary Generation  
-• Daily change reports  
-• Key metrics extraction  
-• Trend analysis summaries  
-• Exportable report formats  
+Trend analysis summaries
 
-Configuration  
-Edit utils/config.py to customize:  
-• Data source paths  
-• Analysis parameters  
-• Visualization settings  
-• API endpoints  
+Exportable report formats (CSV, PDF, etc.)
 
-Troubleshooting  
+🧰 Tech Stack
 
-Common Issues  
+Python
 
-Port already in use:  
-sudo lsof -t -i tcp:5000 | xargs kill -9  
+Flask / FastAPI
 
-Missing dependencies:  
-pip install -r requirements.txt  
+Pandas & NumPy
 
-Data file errors:  
-• Ensure CSV files are in data/raw/ directory  
-• Check file names match expected patterns  
-• Verify CSV format and encoding  
+LangChain / LLM APIs (for AI insights)
 
-Module import errors:  
-• Run commands from project root directory  
-• Check Python path and environment  
+Plotly / Streamlit (for dashboards)
 
-Logs  
-Check the logs/ directory for detailed error information and application logs.  
+📁 Project Structure
+mca_insight_engine/
+│
+├── data/                     # Source and processed datasets
+├── api/                      # API and routing scripts
+├── analytics/                # Insight and summary generation
+├── chatbot/                  # AI and chatbot logic
+├── utils/                    # Helper functions
+├── README.md                 # Project documentation
+└── requirements.txt          # Dependencies
 
-Support  
-For issues and questions:  
-• Check the logs in logs/ directory  
-• Verify data files are in correct format  
-• Ensure all dependencies are installed  
-• Run from the project root directory  
+🏁 How to Run
+# Clone repository
+git clone https://github.com/<your-username>/mca_insight_engine.git
 
-Conclusion  
-MCA Insights Engine provides a unified, AI-driven approach to understanding and analyzing Indian company data. By combining data processing, visualization, and intelligent insights, it simplifies corporate data exploration and reporting. The system’s modular design ensures scalability, extensibility, and ease of integration with future enhancements and datasets.
+# Navigate to folder
+cd mca_insight_engine
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+python app.py
+
+📈 Conclusion
+
+The MCA Insights Engine serves as an intelligent analysis platform for Indian company data — integrating datasets, detecting patterns, and delivering insights through AI-driven automation and analytics.
